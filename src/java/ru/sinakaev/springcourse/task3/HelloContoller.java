@@ -9,11 +9,11 @@ public class HelloContoller {
 
     @RequestMapping("/hello")
     public String sayHello(){
-        return "helloworld-form";
+        return "task1-5/helloworld-form";
     }
 
     @GetMapping("/h")
     public String sayGoodbuy(){
-        return "main-menu";
+        return "task7/main-menu";
     }
 }
